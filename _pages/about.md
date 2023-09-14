@@ -17,6 +17,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in Computer Science at [University of Southern California](https://www.usc.edu/) [LUKA Lab](https://luka-group.github.io). I am grateful to be advised by [Muhao Chen](https://muhaochen.github.io).
+I am a Ph.D. student in Computer Science at University of Southern California, [LUKA Lab](https://luka-group.github.io). I am grateful to be advised by [Muhao Chen](https://muhaochen.github.io).
 
 I am broadly interested in Natural Language Processing and Machine Learning. My long-term goal is to build **robust, controllable, accountable, and responsible large language models**. My recent work focuses on enhancing model privacy and security against information leakage and backdoor attacks.
