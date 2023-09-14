@@ -2,12 +2,12 @@
 ---
 
 @misc{zheng2023secrets,
-  title={Secrets of RLHF in Large Language Models Part I: PPO},
-  author={Zheng, Rui and Dou, Shihan and Gao, Songyang and Shen, Wei and Wang, Binghai and Liu, Yan and Jin, Senjie and Liu, Qin and Xiong, Limao and Chen, Lu and others},
-  booktitle={arXiv preprint},
-  year={2023},
-abbr={preprint},
-arxiv={2307.04964}
+      title={Secrets of RLHF in Large Language Models Part I: PPO},
+      author={Zheng, Rui and Dou, Shihan and Gao, Songyang and Shen, Wei and Wang, Binghai and Liu, Yan and Jin, Senjie and Liu, Qin and Xiong, Limao and Chen, Lu and others},
+      booktitle={arXiv preprint},
+      year={2023},
+      abbr={preprint},
+      arxiv={2307.04964}
 }
 
 @misc{liu2023shortcuts,
@@ -21,51 +21,48 @@ arxiv={2307.04964}
 }
 
 @inproceedings{zheng2023detecting,
-  title={Detecting Adversarial Samples through Sharpness of Loss Landscape},
-  author={Zheng, Rui and Dou, Shihan and Zhou, Yuhao and Liu, Qin and Gui, Tao and Zhang, Qi and Wei, Zhongyu and Huang, Xuan-Jing and Zhang, Menghan},
-  booktitle={Findings of ACL},
-  pages={11282--11298},
-  year={2023},
-abbr={ACL},
-selected={false}
+      title={Detecting Adversarial Samples through Sharpness of Loss Landscape},
+      author={Zheng, Rui and Dou, Shihan and Zhou, Yuhao and Liu, Qin and Gui, Tao and Zhang, Qi and Wei, Zhongyu and Huang, Xuan-Jing and Zhang, Menghan},
+      booktitle={Findings of ACL},
+      pages={11282--11298},
+      year={2023},
+      abbr={ACL},
+      html={https://aclanthology.org/2023.findings-acl.717/},
+      selected={false}
 }
 
 @inproceedings{zheng2023characterizing,
-  title={Characterizing the Impacts of Instances on Robustness},
-  author={Zheng, Rui and Xi, Zhiheng and Liu, Qin and Lai, Wenbin and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing and Ma, Jin and Shan, Ying and Ge, Weifeng},
-  booktitle={Findings of ACL},
-  pages={2314--2332},
-  year={2023},
-abbr={ACL},
-selected={false}
+      title={Characterizing the Impacts of Instances on Robustness},
+      author={Zheng, Rui and Xi, Zhiheng and Liu, Qin and Lai, Wenbin and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing and Ma, Jin and Shan, Ying and Ge, Weifeng},
+      booktitle={Findings of ACL},
+      pages={2314--2332},
+      year={2023},
+      abbr={ACL},
+      selected={false},
+      html={https://aclanthology.org/2023.findings-acl.146/}
 }
 
 @inproceedings{liu2022flooding,
-  title={Flooding-X: Improving BERT’s resistance to adversarial attacks via loss-restricted fine-tuning},
-  author={Liu*, Qin and Zheng*, Rui and Rong, Bao and Liu, Jingyi and Liu, Zhihua and Cheng, Zhanzhan and Qiao, Liang and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing},
-  booktitle={Proceedings of ACL},
-  pages={5634--5644},
-  year={2022},
-abbr={ACL},
-selected={true}
+      title={Flooding-X: Improving BERT’s resistance to adversarial attacks via loss-restricted fine-tuning},
+      author={Liu*, Qin and Zheng*, Rui and Rong, Bao and Liu, Jingyi and Liu, Zhihua and Cheng, Zhanzhan and Qiao, Liang and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing},
+      booktitle={Proceedings of ACL},
+      pages={5634--5644},
+      year={2022},
+      abbr={ACL},
+      selected={true},
+      html={https://aclanthology.org/2022.acl-long.386/},
+      abstract={Adversarial robustness has attracted much attention recently, and the mainstream solution is adversarial training. However, the tradition of generating adversarial perturbations for each input embedding (in the settings of NLP) scales up the training computational complexity by the number of gradient steps it takes to obtain the adversarial samples. To address this problem, we leverage Flooding method which primarily aims at better generalization and we find promising in defending adversarial attacks. We further propose an effective criterion to bring hyper-parameter-dependent flooding into effect with a narrowed-down search space by measuring how the gradient steps taken within one epoch affect the loss of each batch. Our approach requires zero adversarial sample for training, and its time consumption is equivalent to fine-tuning, which can be 2-15 times faster than standard adversarial training. We experimentally show that our method improves BERT’s resistance to textual adversarial attacks by a large margin, and achieves state-of-the-art robust accuracy on various text classification and GLUE tasks.}
 }
 
 @inproceedings{zheng2022plugat,
-    title = {PlugAT: A Plug and Play Module to Defend against Textual Adversarial Attack},
-    author = {Zheng, Rui  and
-      Bao, Rong  and
-      Liu, Qin  and
-      Gui, Tao  and
-      Zhang, Qi  and
-      Huang, Xuanjing  and
-      Xie, Rui  and
-      Wu, Wei},
-    booktitle = {Proceedings of COLING},
-    year = {2022},
-    pages = {2873--2882},
-    abstract = {Adversarial training, which minimizes the loss of adversarially perturbed examples, has received considerable attention. However, these methods require modifying all model parameters and optimizing the model from scratch, which is parameter inefficient and unfriendly to the already deployed models. As an alternative, we propose a pluggable defense module PlugAT, to provide robust predictions by adding a few trainable parameters to the model inputs while keeping the original model frozen. To reduce the potential side effects of using defense modules, we further propose a novel forgetting restricted adversarial training, which filters out bad adversarial examples that impair the performance of original ones. The PlugAT-equipped BERT model substantially improves robustness over several strong baselines on various text classification tasks, whilst training only 9.1{\%} parameters. We observe that defense modules trained under the same model architecture have domain adaptation ability between similar text classification datasets.},
-abbr={COLING},
-selected={false}
+      title = {PlugAT: A Plug and Play Module to Defend against Textual Adversarial Attack},
+      author = {Zheng, Rui  and Bao, Rong and Liu, Qin and Gui, Tao and Zhang, Qi and Huang, Xuanjing and Xie, Rui and Wu, Wei},
+      booktitle = {Proceedings of COLING},
+      year = {2022},
+      pages = {2873--2882},
+      abbr={COLING},
+      selected={false},
+      html={https://aclanthology.org/2022.coling-1.253/}
 }
 
 @inproceedings{wang2021textflint,
@@ -75,7 +72,10 @@ selected={false}
   pages={347--355},
   year={2021},
 abbr={ACL Demo},
-selected={false}
+selected={false},
+html={https://aclanthology.org/2021.acl-demo.41/},
+abstract={TextFlint is a multilingual robustness evaluation toolkit for NLP tasks that incorporates universal text transformation, task-specific transformation, adversarial attack, subpopulation, and their combinations to provide comprehensive robustness analyses. This enables practitioners to automatically evaluate their models from various aspects or to customize their evaluations as desired with just a few lines of code. TextFlint also generates complete analytical reports as well as targeted augmented data to address the shortcomings of the model in terms of its robustness. To guarantee acceptability, all the text transformations are linguistically based and all the transformed data selected (up to 100,000 texts) scored highly under human evaluation. To validate the utility, we performed large-scale empirical evaluations (over 67,000) on state-of-the-art deep learning models, classic supervised methods, and real-world systems. The toolkit is already available at https://github.com/textflint with all the evaluation results demonstrated at textflint.io.},
+code={https://github.com/textflint}
 }
 
 @inproceedings{xing2020learning,
