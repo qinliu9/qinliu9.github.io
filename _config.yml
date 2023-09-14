@@ -273,7 +273,7 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Liu]
+  last_name: Liu
   first_name: [Qin, Q.]
 
   style: apa
