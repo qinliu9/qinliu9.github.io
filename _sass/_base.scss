@@ -631,7 +631,7 @@ footer.sticky-bottom {
 
         >em {
           border-bottom: 1px solid;
-          font-style: bold;
+          font-style: bolder;
         }
 
         >span.more-authors {
@@ -673,7 +673,7 @@ footer.sticky-bottom {
           vertical-align: middle;
 
           &:hover {
-            text-decoration: underline;
+            text-decoration: bolder;
           }
         }
       }
