@@ -22,5 +22,5 @@ I am broadly interested in Natural Language Processing and Machine Learning. My 
 
 ### Education
 * Ph.D. in Computer Science, University of Southern California, 2022 - Present.
-* M.S. in Computer Science, Fudan University, China, 2019 - 2022.
-* B.Phil. in Philosophy of Science and Logic, Fudan University, China, 2015 - 2019.
+* M.S. in Computer Science, Fudan University, 2019 - 2022.
+* B.Phil. in Philosophy of Science and Logic, Fudan University, 2015 - 2019.
