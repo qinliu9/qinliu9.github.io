@@ -37,34 +37,6 @@
       abbr={preprint}
 }
 
-@inproceedings{graf2024two,
-      title={Two Heads are Better than One: Nested PoE for Robust Defense Against Multi-Backdoors}, 
-      author={Graf, Victoria and Liu, Qin and Chen, Muhao},
-      booktitle={Proceedings of NAACL},
-      year={2024},
-      arxiv={2404.02356},
-      html={https://aclanthology.org/2024.naacl-long.40},
-      pages={706--718},
-      abbr={NAACL},
-}
-
-
-@inproceedings{liu2023shortcuts,
-      title={From Shortcuts to Triggers: Backdoor Defense with Denoised PoE}, 
-      author={Qin Liu and Fei Wang and Chaowei Xiao and Muhao Chen},
-      year={2024},
-      arxiv={2305.14910},
-      booktitle={Proceedings of NAACL},
-      abbr={NAACL},
-      html={https://aclanthology.org/2024.naacl-long.27},
-      pages={483--496},
-      abstract={Language models are often at risk of diverse backdoor attacks, especially data poisoning. Thus, it is important to investigate defense solutions for addressing them. Existing backdoor defense methods mainly focus on backdoor attacks with explicit triggers, leaving a universal defense against various backdoor attacks with diverse triggers largely unexplored. In this paper, we propose an end-to-end ensemble-based backdoor defense framework, DPoE (Denoised Product-of-Experts), which is inspired by the shortcut nature of backdoor attacks, to defend various backdoor attacks. DPoE consists of two models: a shallow model that captures the backdoor shortcuts and a main model that is prevented from learning the shortcuts. To address the label flip caused by backdoor attackers, DPoE incorporates a denoising design. Experiments on three NLP tasks show that DPoE significantly improves the defense performance against various types of backdoor triggers including word-level, sentence-level, and syntactic triggers. Furthermore, DPoE is also effective under a more challenging but practical setting that mixes multiple types of triggers.},
-      code={https://github.com/luka-group/DPoE},
-      selected={false}
-}
-
-
-
 @misc{mo2023test,
   title={Test-time Backdoor Mitigation for Black-box Large Language Models with Defensive Demonstrations},
   author={Mo, Wenjie and Xu, Jiashu and Liu, Qin and Wang, Jiongxiao and Yan, Jun and Xiao, Chaowei and Chen, Muhao},
@@ -91,6 +63,34 @@
   arxiv={2307.04964},
   abbr={preprint}
 }
+
+
+@inproceedings{graf2024two,
+      title={Two Heads are Better than One: Nested PoE for Robust Defense Against Multi-Backdoors}, 
+      author={Graf, Victoria and Liu, Qin and Chen, Muhao},
+      booktitle={Proceedings of NAACL},
+      year={2024},
+      arxiv={2404.02356},
+      html={https://aclanthology.org/2024.naacl-long.40},
+      pages={706--718},
+      abbr={NAACL},
+}
+
+
+@inproceedings{liu2023shortcuts,
+      title={From Shortcuts to Triggers: Backdoor Defense with Denoised PoE}, 
+      author={Qin Liu and Fei Wang and Chaowei Xiao and Muhao Chen},
+      year={2024},
+      arxiv={2305.14910},
+      booktitle={Proceedings of NAACL},
+      abbr={NAACL},
+      html={https://aclanthology.org/2024.naacl-long.27},
+      pages={483--496},
+      abstract={Language models are often at risk of diverse backdoor attacks, especially data poisoning. Thus, it is important to investigate defense solutions for addressing them. Existing backdoor defense methods mainly focus on backdoor attacks with explicit triggers, leaving a universal defense against various backdoor attacks with diverse triggers largely unexplored. In this paper, we propose an end-to-end ensemble-based backdoor defense framework, DPoE (Denoised Product-of-Experts), which is inspired by the shortcut nature of backdoor attacks, to defend various backdoor attacks. DPoE consists of two models: a shallow model that captures the backdoor shortcuts and a main model that is prevented from learning the shortcuts. To address the label flip caused by backdoor attackers, DPoE incorporates a denoising design. Experiments on three NLP tasks show that DPoE significantly improves the defense performance against various types of backdoor triggers including word-level, sentence-level, and syntactic triggers. Furthermore, DPoE is also effective under a more challenging but practical setting that mixes multiple types of triggers.},
+      code={https://github.com/luka-group/DPoE},
+      selected={false}
+}
+
 
 
 @inproceedings{zheng2023detecting,
