@@ -32,8 +32,14 @@ WORKDIR /srv/jekyll
 
 RUN bundle install
 
+# Create non-root user for running the application
+RUN useradd -m -s /bin/bash jekylluser && \
+    chown -R jekylluser:jekylluser /srv/jekyll
+
 # Set Jekyll environment
-ENV JEKYLL_ENV=production 
+ENV JEKYLL_ENV=production
+
+USER jekylluser
 
 EXPOSE 8080
 

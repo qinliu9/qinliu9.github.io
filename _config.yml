@@ -74,7 +74,7 @@ github_username: qinliu9 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: qinliujackie # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: dApKnRkAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -379,10 +379,10 @@ academicons:
   version: "1.9.1"
   integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
 bootstrap:
-  version: "4.6.1"
+  version: "4.6.2"
   integrity:
-    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
+    css: "sha256-+IZRbz1B6ee9mUx/ejmonK+ulIP5A5bLDd6v6NHqXnI="
+    js: "sha256-GRJrh0oydT1CwS36bBeJK/2TggpaUQC6GzTaTQdZm0k="
 bootstrap-table:
   version: "1.21.4"
 fontawesome:
